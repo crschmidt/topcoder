@@ -20,7 +20,7 @@ class HiddenNumbers:
                 nums.append("".join(cur_num))
                 cur_num = []
         if cur_num:
-            nums.append("".join(cur_num))        
+            nums.append("".join(cur_num))
         return nums
     
     def leadingZeros(self, num):
@@ -30,7 +30,7 @@ class HiddenNumbers:
         else:
             while num[zeros] == "0" and len(num) > (zeros+1) :
                 zeros += 1
-        return zeros            
+        return zeros
     
     def findAll(self, text):
         """
